@@ -14,6 +14,8 @@ set suspendtimeout=3600000
 nnoremap <space>bh <:lclose>
 nnoremap <space>bl <:rclose>
 nnoremap <tab> <:b #>
+nnoremap H <moveTabBackward>
+nnoremap L <moveTabForward>
 nnoremap <c-h> <toLeftSplitWindow>
 noremap <c-m-h> <toLeftSplitWindow>
 nnoremap <c-l> <toRightSplitWindow>
