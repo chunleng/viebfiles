@@ -60,6 +60,12 @@ pnoremap <up> <p.scrollUp>
 pnoremap <down> <p.scrollDown>
 pnoremap <right> <p.scrollRight>
 pnoremap <left> <p.scrollLeft>
+pnoremap <c-u> 3<p.scrollUp>
+pnoremap <c-d> 3<p.scrollDown>
+vnoremap <c-u> 3<p.scrollUp>
+vnoremap <c-d> 3<p.scrollDown>
+pnoremap ? <p.inspectElement>
+pnoremap : <toCommandMode>
 
 set permissioncamera=ask
 set permissionmicrophone=ask
