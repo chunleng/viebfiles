@@ -67,6 +67,9 @@ vnoremap <c-d> 3<p.scrollDown>
 pnoremap ? <p.inspectElement>
 pnoremap : <toCommandMode>
 
+fnoremap <c-d> <scrollPageDownHalf>
+fnoremap <c-u> <scrollPageDownHalf>
+
 set permissioncamera=ask
 set permissionmicrophone=ask
 set permissionmediadevices=allow
