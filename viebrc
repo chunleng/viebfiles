@@ -91,6 +91,9 @@ nnoremap <space>d <:devtools>
 noremap <c-space> <toCommandMode>b<space>
 
 nnoremap <c-z> <:%suspend>
+nnoremap 0 <:b 0>
+nnoremap $ <:b -1>
+
 
 " Commands
 colorscheme custom
