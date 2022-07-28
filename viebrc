@@ -16,8 +16,10 @@ set redirects+=",https://(localhost|127.0.0.1)(.*)~http://$1$2"
 nnoremap <space>bh <:lclose>
 nnoremap <space>bl <:rclose>
 nnoremap <tab> <:b #>
-nnoremap H <moveTabBackward>
-nnoremap L <moveTabForward>
+nnoremap <c-,> <moveTabBackward>
+nnoremap <c-.> <moveTabForward>
+noremap <c-m-,> <moveTabBackward>
+noremap <c-m-.> <moveTabForward>
 nnoremap <c-h> <toLeftSplitWindow>
 noremap <c-m-h> <toLeftSplitWindow>
 nnoremap <c-l> <toRightSplitWindow>
