@@ -1,28 +1,28 @@
-if (!getActiveElement) {
+if (!__vieb_custom_getActiveElement) {
     /**
       * @returns {HTMLElement}
       */
-    function getActiveElement(element = document.activeElement) {
+    function __vieb_custom_getActiveElement(element = document.activeElement) {
       const shadowRoot = element.shadowRoot;
       const contentDocument = element.contentDocument;
 
       if (shadowRoot && shadowRoot.activeElement) {
-        return getActiveElement(shadowRoot.activeElement);
+        return __vieb_custom_getActiveElement(shadowRoot.activeElement);
       }
 
       if (contentDocument && contentDocument.activeElement) {
-        return getActiveElement(contentDocument.activeElement);
+        return __vieb_custom_getActiveElement(contentDocument.activeElement);
       }
 
       return element
     }
 }
 
-if (!deleteWord) {
+if (!__vieb_custom_deleteWord) {
     /**
      * @param {HTMLElement} el
      */
-    function deleteWord(el) {
+    function __vieb_custom_deleteWord(el) {
         if (el.value) {
             const match = el.value.slice(0, el.selectionStart - 1).match(/[^a-zA-Z0-9]/gi);
             const index = match ? el.value.lastIndexOf(match[match.length-1], el.selectionStart - 2) : -1;
@@ -48,4 +48,4 @@ if (!deleteWord) {
     }
 }
 
-deleteWord(getActiveElement());
+__vieb_custom_deleteWord(__vieb_custom_getActiveElement());
