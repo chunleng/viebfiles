@@ -114,7 +114,7 @@ nunmap d
 inoremap <c-k> <s-end><bs>
 inoremap <c-u> <s-home><bs>
 " inoremap <c-w> <s-left><a-s-left><bs>
-inoremap <c-w> <:runjsinpage ~/.vieb/scripts/select_word.js><bs>
+inoremap <c-w> <:runjsinpage ~/.vieb/scripts/delete_word.js>
 cnoremap <c-k> <s-end><bs>
 cnoremap <c-u> <s-home><bs>
 cnoremap <c-w> <s-left><a-s-left><bs>
