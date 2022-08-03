@@ -54,7 +54,19 @@ noremap <m-t> <:tabnew><toExploreMode>
 noremap <m-r> <refreshTab>
 nnoremap t <:tabnew><toExploreMode>
 
+nnoremap <m-left> <backInHistory>
+pnoremap <m-left> <backInHistory>
+vnoremap <m-left> <backInHistory>
+cnoremap <m-left> <backInHistory>
+enoremap <m-left> <backInHistory>
+nnoremap <m-right> <forwardInHistory>
+pnoremap <m-right> <forwardInHistory>
+vnoremap <m-right> <forwardInHistory>
+cnoremap <m-right> <forwardInHistory>
+enoremap <m-right> <forwardInHistory>
+
 nnoremap <m-c> <p.copyText>
+vnoremap <m-c> <p.copyText>
 
 nnoremap + <zoomIn>
 nnoremap - <zoomOut>
