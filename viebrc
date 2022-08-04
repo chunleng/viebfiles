@@ -134,7 +134,7 @@ enoremap <c-a> <home>
 enoremap <c-e> <end>
 
 " Enable to <esc> to work
-nnoremap <esc> <toInsertMode><esc><toNormalMode>
+nnoremap <esc> <toInsertMode><esc><toSearchMode><bs><toNormalMode>
 
 " Password AutoComplete
 " Timeout is set because runjsinpage executes before openLinkExternal
