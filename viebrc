@@ -59,6 +59,7 @@ pnoremap <m-left> <backInHistory>
 vnoremap <m-left> <backInHistory>
 cnoremap <m-left> <backInHistory>
 enoremap <m-left> <backInHistory>
+nnoremap <c-i> <forwardInHistory>
 nnoremap <m-right> <forwardInHistory>
 pnoremap <m-right> <forwardInHistory>
 vnoremap <m-right> <forwardInHistory>
