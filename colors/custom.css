@@ -48,6 +48,15 @@
     --follow-insert-bg: #5c410a;
     --follow-insert-border: #5c410a;
     --follow-insert-hover: none;
+    --follow-media-bg: #233443;
+    --follow-media-border: #233443;
+    --follow-media-hover: none;
+    --follow-image-bg: #233443;
+    --follow-image-border: #233443;
+    --follow-image-hover: none;
+    --follow-other-bg: #373b41;
+    --follow-other-border: none;
+    --follow-other-hover: none;
     --suggestions-border: #1d1f21;
     --suggestions-bg: #1d1f21;
     --suggestions-selected: #373b41;
@@ -149,7 +158,19 @@ body {font-family: "Arial";}
 
 
 #app #follow {position: fixed;z-index: 1; font-family: "Hack Nerd Font";}
-#app #follow .follow-url, #app #follow .follow-inputs-click, #app #follow .follow-inputs-insert, #app #follow .follow-onclick, #app #follow .follow-media, #app #follow .follow-image, #app #follow .follow-other {padding: 0.3em; width: fit-content; border-radius:0.2em; opacity: 0.8;}
+
+#app #follow .follow-url,
+#app #follow .follow-inputs-click,
+#app #follow .follow-inputs-insert,
+#app #follow .follow-onclick,
+#app #follow .follow-media,
+#app #follow .follow-image,
+#app #follow .follow-other {
+    padding: 0.3em;
+    width: fit-content;
+    border-radius:0.2em;
+    opacity: 0.8;
+}
 
 
 /* TODO solve the issue in split where the split indicator rattle the tab */

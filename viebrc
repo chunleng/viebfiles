@@ -11,6 +11,8 @@ set suspendtimeout=3600000
     " 1 hour
 set redirects="https?://(www\.)?google\.com(\.\w+)?/amp/s/amp\.(.*)~https://$3"
 set redirects+=",https://(localhost|127.0.0.1)(.*)~http://$1$2"
+set userstyle=true
+set nativetheme=dark
 
 " Mappings
 nnoremap <space>bh <:lclose>
@@ -114,8 +116,6 @@ nnoremap $ <:b -1>
 colorscheme custom
 
 set vimcommand="$([[ -f "/opt/homebrew/bin/kitty" ]] && echo "/opt/homebrew" || echo "/usr/local")/bin/kitty -1 ~/.asdf/shims/nvim +'setf browser'"
-
-set firefoxmode=google
 
 nunmap d
 
