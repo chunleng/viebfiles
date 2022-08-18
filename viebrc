@@ -133,6 +133,15 @@ enoremap <c-u> <s-home><bs>
 enoremap <c-w> <s-left><a-s-left><bs>
 enoremap <c-a> <home>
 enoremap <c-e> <end>
+enoremap <c-b> <left>
+enoremap <c-f> <right>
+snoremap <c-k> <s-end><bs>
+snoremap <c-u> <s-home><bs>
+snoremap <c-w> <s-left><a-s-left><bs>
+snoremap <c-a> <home>
+snoremap <c-e> <end>
+snoremap <c-b> <left>
+snoremap <c-f> <right>
 
 " Enable to <esc> to work
 nnoremap <esc> <toInsertMode><esc><toSearchMode><bs><toNormalMode>
