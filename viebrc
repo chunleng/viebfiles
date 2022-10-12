@@ -13,6 +13,7 @@ set redirects="https?://(www\.)?google\.com(\.\w+)?/amp/s/amp\.(.*)~https://$3"
 set redirects+=",https://(localhost|127.0.0.1)(.*)~http://$1$2"
 set userstyle=true
 set nativetheme=dark
+set reloadtaboncrash=true
 
 " Mappings
 nnoremap <space>bh <:lclose>
