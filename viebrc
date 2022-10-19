@@ -146,7 +146,7 @@ snoremap <c-b> <left>
 snoremap <c-f> <right>
 
 " Enable to <esc> to work
-nnoremap <esc> <toInsertMode><esc><toSearchMode><bs><toNormalMode>
+nnoremap <esc> <toInsertMode><esc><toNormalMode><:nohlsearch>
 
 " Password AutoComplete
 " Timeout is set because runjsinpage executes before openLinkExternal
