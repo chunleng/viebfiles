@@ -11,6 +11,7 @@ set suspendtimeout=3600000
     " 1 hour
 set redirects="https?://(www\.)?google\.com(\.\w+)?/amp/s/amp\.(.*)~https://$3"
 set redirects+=",https://(localhost|127.0.0.1)(.*)~http://$1$2"
+set redirects+=",https://www.google.com/search\?q=go%2F(.*)~http://go/$1"
 set userstyle=true
 set nativetheme=dark
 set reloadtaboncrash=true
