@@ -19,7 +19,7 @@ set menupage=never
 " Mappings
 nnoremap <space>bh <:lclose>
 nnoremap <space>bl <:rclose>
-nnoremap <tab> <:b #>
+nnoremap <bs> <:b #>
 nnoremap <c-,> <moveTabBackward>
 nnoremap <c-.> <moveTabForward>
 noremap <c-m-,> <moveTabBackward>
@@ -108,7 +108,8 @@ set dialogconfirm=show
 set devtoolsposition=vsplit
 nnoremap <space>d <:devtools>
 nnoremap <space>t <:runjsinpage document.location = `https://${document.location.host.replaceAll("-","--").replaceAll(".","-")}.translate.goog${document.location.pathname}?_x_tr_sl=auto&_x_tr_tl=en`>
-nnoremap <c-space> <toCommandMode>b<space>
+nnoremap <c-enter> <clickOnSearch>
+nnoremap <enter> <toCommandMode>b<space>
 
 nnoremap <c-z> <:%suspend>
 nnoremap 0 <:b 0>
