@@ -1,6 +1,6 @@
 " Custom
 set search=https://www.google.com/search?q=%s
-set followchars="custom:duhetonas"
+set followchars="custom:hutenosa"
 set splitbelow
 set splitright
 set followelement="url,onclick,inputs-insert,inputs-click"
