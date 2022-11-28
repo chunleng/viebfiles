@@ -21,6 +21,17 @@ set menupage=never
 nnoremap <space>bh <:lclose>
 nnoremap <space>bl <:rclose>
 nnoremap <bs> <:b #>
+nnoremap g0 <:b 0>
+nnoremap g1 <:b 1>
+nnoremap g2 <:b 2>
+nnoremap g3 <:b 3>
+nnoremap g4 <:b 4>
+nnoremap g5 <:b 5>
+nnoremap g6 <:b 6>
+nnoremap g7 <:b 7>
+nnoremap g8 <:b 8>
+nnoremap g9 <:b 9>
+nnoremap g$ <:b -1>
 nnoremap <c-,> <moveTabBackward>
 nnoremap <c-.> <moveTabForward>
 noremap <c-m-,> <moveTabBackward>
@@ -113,8 +124,6 @@ nnoremap <c-enter> <clickOnSearch>
 nnoremap <enter> <toCommandMode>b<space>
 
 nnoremap <c-z> <:%suspend>
-nnoremap 0 <:b 0>
-nnoremap $ <:b -1>
 
 
 " Commands
