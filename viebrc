@@ -119,7 +119,8 @@ set dialogconfirm=show
 
 set devtoolsposition=vsplit
 nnoremap <space>d <:devtools>
-nnoremap <space>t <:runjsinpage document.location = `https://${document.location.host.replaceAll("-","--").replaceAll(".","-")}.translate.goog${document.location.pathname}?_x_tr_sl=auto&_x_tr_tl=en`>
+nnoremap <space>td <:set darkreader!>
+nnoremap <space>tt <:runjsinpage document.location = `https://${document.location.host.replaceAll("-","--").replaceAll(".","-")}.translate.goog${document.location.pathname}?_x_tr_sl=auto&_x_tr_tl=en`>
 nnoremap <c-enter> <clickOnSearch>
 nnoremap <enter> <toCommandMode>b<space>
 
