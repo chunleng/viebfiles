@@ -4,7 +4,7 @@ set followchars="custom:hutenosa"
 set splitbelow
 set splitright
 set followelement="url,onclick,inputs-insert,inputs-click"
-set followelementpointer="media,image,other"
+set followelementpointer="url,onclick,inputs-insert,inputs-click,media,image,other"
 set guifontsize=12
 set noshowcmd
 set suspendtimeout=3600000
