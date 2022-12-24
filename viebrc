@@ -56,8 +56,8 @@ nnoremap gp <:pin>
 nnoremap gt <toCommandMode>b<space>
 
 noremap <m-q> <:quitall>
-nnoremap <space>x <:hide>
-nnoremap <c-x> <:close>
+nnoremap <c-w><c-q> <:hide>
+nnoremap <c-q> <:close>
 noremap <m-w> <:close>
 
 noremap <m-c-p> <previousTab>
