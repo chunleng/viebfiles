@@ -21,6 +21,8 @@ set menupage=never
 " Mappings
 nnoremap <space>bh <:lclose>
 nnoremap <space>bl <:rclose>
+nnoremap <space>bo <:lclose><:rclose>
+nnoremap <space>ba <:lclose><:rclose><:close>
 nnoremap <bs> <:b #>
 nnoremap g0 <:b 0>
 nnoremap g1 <:b 1>
