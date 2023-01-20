@@ -35,10 +35,10 @@ nnoremap g7 <:b 7>
 nnoremap g8 <:b 8>
 nnoremap g9 <:b 9>
 nnoremap g$ <:b -1>
-nnoremap <c-,> <moveTabBackward>
-nnoremap <c-.> <moveTabForward>
-noremap <c-m-,> <moveTabBackward>
-noremap <c-m-.> <moveTabForward>
+nnoremap <c-{> <moveTabBackward>
+nnoremap <c-}> <moveTabForward>
+noremap <c-m-{> <moveTabBackward>
+noremap <c-m-}> <moveTabForward>
 nnoremap <c-h> <toLeftSplitWindow>
 noremap <c-m-h> <toLeftSplitWindow>
 nnoremap <c-l> <toRightSplitWindow>
