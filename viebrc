@@ -141,11 +141,13 @@ inoremap <c-k> <s-end><bs>
 inoremap <c-u> <s-home><bs>
 " inoremap <c-w> <s-left><a-s-left><bs>
 inoremap <c-w> <:runjsinpage ~/.vieb/scripts/delete_word.js>
+inoremap <c-y> <home><s-end><m-c><end>
 cnoremap <c-k> <s-end><bs>
 cnoremap <c-u> <s-home><bs>
 cnoremap <c-w> <s-left><a-s-left><bs>
 cnoremap <c-a> <home>
 cnoremap <c-e> <end>
+cnoremap <c-y> <home><s-end><m-c><end>
 enoremap <c-k> <s-end><bs>
 enoremap <c-u> <s-home><bs>
 enoremap <c-w> <s-left><a-s-left><bs>
@@ -153,6 +155,7 @@ enoremap <c-a> <home>
 enoremap <c-e> <end>
 enoremap <c-b> <left>
 enoremap <c-f> <right>
+enoremap <c-y> <home><s-end><m-c><end>
 snoremap <c-k> <s-end><bs>
 snoremap <c-u> <s-home><bs>
 snoremap <c-w> <s-left><a-s-left><bs>
@@ -160,6 +163,7 @@ snoremap <c-a> <home>
 snoremap <c-e> <end>
 snoremap <c-b> <left>
 snoremap <c-f> <right>
+snoremap <c-y> <home><s-end><m-c><end>
 
 " Enable to <esc> to work
 nnoremap <esc> <toInsertMode><esc><toNormalMode><:nohlsearch>
