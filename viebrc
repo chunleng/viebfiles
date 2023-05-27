@@ -1,5 +1,5 @@
 " Custom
-set search=https://www.google.com/search?q=%s
+set searchengine=https://www.google.com/search?q=%s
 set followchars="custom:hutenosa"
 set splitbelow
 set splitright
