@@ -142,6 +142,7 @@ body {font-family: "Arial";}
 #mode-suggestions {display: none;}
 #url {margin: 0.5em 1em; border:none;}
 #suggest-dropdown {top: unset; bottom: 2.5em; left: 1em; width: fit-content; max-width: 50vw ; color: var(--fg); max-height: 50vh; font: 1em "Arial"; opacity: 0.95;}
+#suggest-dropdown div .title {max-width: none;}
 /* Put above #navbar */
 #url-hover {display: none;position: absolute;background: var(--url-hover-bg);color:var(--url-hover-fg);bottom: 2.5em;left: 0;right:unset;pointer-events: none;padding: .1em;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: fit-content;margin: auto;max-width: 80vw;text-align: center;z-index: 3;}
 
