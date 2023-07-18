@@ -64,6 +64,7 @@ inoremap <c-u> <scrollPageUpHalf>
 
 nnoremap gp <:pin>
 nnoremap gt <toCommandMode>b<space>
+nnoremap g/ <:tabnew><toExploreMode>g/
 
 noremap <m-q> <:quitall>
 nnoremap <c-w><c-q> <:hide>
