@@ -8,6 +8,8 @@ set followelementpointer="url,onclick,inputs-insert,inputs-click,media,image,oth
 set guifontsize=12
 set noshowcmd
 set suspendtimeout=3600000
+set suspendtimeoutignore="ga//,gp//"
+
     " 1 hour
 " set redirects="https?://(www\.)?google\.com(\.\w+)?/amp/s/amp\.(.*)~https://$3"
 set redirects="https://(localhost|127.0.0.1)(.*)~http://$1$2"
