@@ -23,7 +23,7 @@ set redirects+=",https://www.bing.com/search\?q=gh-ggg$~https://github.com/goget
 set redirects+=",https://www.bing.com/search\?q=mail$~https://mail.google.com/"
 set redirects+=",https://www.bing.com/search\?q=rss$~https://jp.inoreader.com/dashboard"
 set redirects+=",https://www.bing.com/search\?q=aws$~https://console.aws.amazon.com/"
-set redirects+=",https://www.bing.com/search\?q=drive$~https://drive.google.com/drive/my-drive"
+set redirects+=",https://www.bing.com/search\?q=drive$~https://drive.google.com/drive/starred"
 set redirects+=",https://www.bing.com/search\?q=%24$~https://secure.splitwise.com/"
 set redirects+=",https://www.bing.com/search\?q=shinsei$~https://bk.web.sbishinseibank.co.jp/SFC/apps/services/www/SFC/desktopbrowser/default/login"
 set redirects+=",https://www.bing.com/search\?q=enavi$~https://www.rakuten-card.co.jp/e-navi/index.xhtml"
