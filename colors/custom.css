@@ -149,7 +149,7 @@ body {font-family: "Arial";}
 
 [current-mode=normal] #navbar, [current-mode=normal] #url {color: var(--mode-normal-fg);background: var(--mode-normal-bg);}
 [current-mode=command] #navbar, [current-mode=command] #url {color: var(--mode-command-fg);background: var(--mode-command-bg);}
-[current-mode=command] #url::before {content: ":tastoehu";width: 100; position: absolute; left: 0; top: 0;}
+[current-mode=command] #url::before {width: 100; position: absolute; left: 0; top: 0;}
 [current-mode=insert] #navbar, [current-mode=insert] #url {color: var(--mode-insert-fg);background: var(--mode-insert-bg);}
 [current-mode=follow] #navbar, [current-mode=follow] #url {color: var(--mode-follow-fg);background: var(--mode-follow-bg);}
 [current-mode=explore] #navbar, [current-mode=explore] #url {color: var(--mode-explore-fg);background: var(--mode-explore-bg);}
@@ -158,7 +158,15 @@ body {font-family: "Arial";}
 [current-mode=visual] #navbar, [current-mode=visual] #url {color: var(--mode-visual-fg);background: var(--mode-visual-bg);}
 
 
-#app #follow {position: fixed;z-index: 1; font-family: "Hack Nerd Font";}
+#app #follow {
+    position: absolute;
+    display: none;
+    font-family: "Hack Nerd Font";
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
 
 #app #follow .follow-url,
 #app #follow .follow-inputs-click,
