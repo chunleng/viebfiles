@@ -188,9 +188,9 @@ nnoremap <esc> <toInsertMode><esc><toNormalMode><:nohlsearch>
 
 " Password AutoComplete
 " Timeout is set because runjsinpage executes before openLinkExternal
-inoremap <c-space>u <:set externalcommand="~/.vieb/scripts/get_page_username.sh"><action.openLinkExternal><:runjsinpage setTimeout(function(){document.execCommand('paste')}, 500)>
-inoremap <c-space>p <:set externalcommand="~/.vieb/scripts/get_page_password.sh"><action.openLinkExternal><:runjsinpage setTimeout(function(){document.execCommand('paste')}, 500)>
-inoremap <c-space>g <:set externalcommand="/Applications/kitty.app/Contents/MacOS/kitty -1 ~/.vieb/scripts/generate_page_password.sh"><action.openLinkExternal>
+inoremap <c-space>u <:set externalcommand=~/.vieb/scripts/get_page_username.sh><action.openLinkExternal><:runjsinpage setTimeout(function(){document.execCommand('paste')}, 500)>
+inoremap <c-space>p <:set externalcommand=~/.vieb/scripts/get_page_password.sh><action.openLinkExternal><:runjsinpage setTimeout(function(){document.execCommand('paste')}, 500)>
+inoremap <c-space>g <:set externalcommand=/Applications/kitty.app/Contents/MacOS/kitty<space>-1<space>~/.vieb/scripts/generate_page_password.sh><action.openLinkExternal>
 " unset openLinkExternal
 nunmap x
 
