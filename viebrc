@@ -35,6 +35,7 @@ set reloadtaboncrash=true
 set menupage=never
 
 " Mappings
+" <c-m-X> control command is mapped to qwerty and therefore below's mapping are the qwerty position of dvorak's mapping
 nnoremap <space>bh <:lclose>
 nnoremap <space>bl <:rclose>
 nnoremap <space>bo <:lclose><:rclose>
@@ -51,18 +52,18 @@ nnoremap g7 <:b 7>
 nnoremap g8 <:b 8>
 nnoremap g9 <:b 9>
 nnoremap g$ <:b -1>
-nnoremap <c-{> <moveTabBackward>
-nnoremap <c-}> <moveTabForward>
-noremap <c-m-{> <moveTabBackward>
-noremap <c-m-}> <moveTabForward>
+nnoremap <c-,> <moveTabBackward>
+nnoremap <c-.> <moveTabForward>
+noremap <c-m-w> <moveTabBackward>
+noremap <c-m-e> <moveTabForward>
 nnoremap <c-h> <toLeftSplitWindow>
-noremap <c-m-h> <toLeftSplitWindow>
+noremap <c-m-j> <toLeftSplitWindow>
 nnoremap <c-l> <toRightSplitWindow>
-noremap <c-m-l> <toRightSplitWindow>
+noremap <c-m-p> <toRightSplitWindow>
 nnoremap <c-j> <toBottomSplitWindow>
-noremap <c-m-j> <toBottomSplitWindow>
+noremap <c-m-c> <toBottomSplitWindow>
 nnoremap <c-k> <toTopSplitWindow>
-noremap <c-m-k> <toTopSplitWindow>
+noremap <c-m-v> <toTopSplitWindow>
 nnoremap <s-left> <:vsplit #><exchangeSplitWindow><toLeftSplitWindow>
 nnoremap <s-right> <:vsplit #>
 nnoremap <s-down> <:split #><exchangeSplitWindow><toTopSplitWindow>
@@ -81,8 +82,8 @@ nnoremap <c-w><c-q> <:hide>
 nnoremap <c-q> <:close>
 noremap <m-w> <:close>
 
-noremap <m-c-p> <previousTab>
-noremap <m-c-n> <nextTab>
+noremap <c-m-r> <previousTab>
+noremap <c-m-l> <nextTab>
 
 noremap <m-l> <toExploreMode>
 nnoremap o <toExploreMode>
