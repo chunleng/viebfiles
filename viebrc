@@ -56,16 +56,16 @@ nnoremap g9 <:b 9>
 nnoremap g$ <:b -1>
 nnoremap <c-,> <moveTabBackward>
 nnoremap <c-.> <moveTabForward>
-noremap <c-m-w> <moveTabBackward>
-noremap <c-m-e> <moveTabForward>
+noremap <c-m-,> <moveTabBackward>
+noremap <c-m-.> <moveTabForward>
 nnoremap <c-h> <toLeftSplitWindow>
-noremap <c-m-j> <toLeftSplitWindow>
+noremap <c-m-h> <toLeftSplitWindow>
 nnoremap <c-l> <toRightSplitWindow>
-noremap <c-m-p> <toRightSplitWindow>
+noremap <c-m-l> <toRightSplitWindow>
 nnoremap <c-j> <toBottomSplitWindow>
-noremap <c-m-c> <toBottomSplitWindow>
+noremap <c-m-j> <toBottomSplitWindow>
 nnoremap <c-k> <toTopSplitWindow>
-noremap <c-m-v> <toTopSplitWindow>
+noremap <c-m-k> <toTopSplitWindow>
 nnoremap <s-left> <:vsplit #><exchangeSplitWindow><toLeftSplitWindow>
 nnoremap <s-right> <:vsplit #>
 nnoremap <s-down> <:split #><exchangeSplitWindow><toTopSplitWindow>
@@ -84,8 +84,8 @@ nnoremap <c-w><c-q> <:hide>
 nnoremap <c-q> <:close>
 noremap <m-w> <:close>
 
-noremap <c-m-r> <previousTab>
-noremap <c-m-l> <nextTab>
+noremap <c-m-p> <previousTab>
+noremap <c-m-n> <nextTab>
 
 noremap <m-l> <toExploreMode>
 nnoremap o <toExploreMode>
