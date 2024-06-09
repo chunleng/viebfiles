@@ -21,6 +21,7 @@ set redirects+=https://www.ecosia.org/search\?q=dynamodb$~https://console.aws.am
 set redirects+=https://www.ecosia.org/search\?q=redshift$~https://console.aws.amazon.com/redshiftv2/home
 set redirects+=https://www.ecosia.org/search\?q=gh$~https://github.com/
 set redirects+=https://www.ecosia.org/search\?q=gh-ggg$~https://github.com/gogetgoing
+set redirects+=https://www.ecosia.org/search\?q=gh-tm$~https://github.com/gogetgoing/taskmunch
 set redirects+=https://www.ecosia.org/search\?q=mail$~https://mail.google.com/
 set redirects+=https://www.ecosia.org/search\?q=rss$~https://jp.inoreader.com/dashboard
 set redirects+=https://www.ecosia.org/search\?q=aws$~https://console.aws.amazon.com/
