@@ -7,6 +7,7 @@ set followelement=["url","onclick","inputs-insert","inputs-click"]
 set followelementpointer=["url","onclick","inputs-insert","inputs-click","media","image","other"]
 set guifontsize=12
 set noshowcmd
+set clearhistoryinterval=1month
 
 " 1 hour
 set suspendtimeout=3600000
