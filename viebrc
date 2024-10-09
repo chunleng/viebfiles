@@ -33,6 +33,7 @@ set redirects+=https://www.ecosia.org/search\?q=enavi$~https://www.rakuten-card.
 set redirects+=https://www.ecosia.org/search\?q=sec$~https://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html
 set redirects+=https://www.ecosia.org/search\?q=epos$~https://www.eposcard.co.jp/memberservice/pc/login/login_preload.do
 set redirects+=https://www.ecosia.org/search\?q=map(s)?$~https://www.google.com/maps
+set redirects+=https://www.ecosia.org/search\?q=rd%2F(.*)$~https://docs.rs/$1
 set userstyle=true
 set nativetheme=dark
 set reloadtaboncrash=true
