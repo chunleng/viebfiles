@@ -148,6 +148,7 @@ nnoremap <space>d <:devtools>
 nnoremap <space>td <:set darkreader!>
 nnoremap <space>tt <:runjsinpage document.location = `https://${document.location.host.replaceAll("-","--").replaceAll(".","-")}.translate.goog${document.location.pathname}?_x_tr_sl=auto&_x_tr_tl=en`>
 nnoremap <space>gc <:set externalcommand=~/.vieb/scripts/open_in_chrome.sh><action.openLinkExternal>
+nnoremap <space>gq <:set externalcommand=~/.vieb/scripts/open_qrcode.sh><action.openLinkExternal>
 nnoremap <c-enter> <clickOnSearch>
 nnoremap <enter> <toCommandMode>b<space>
 
