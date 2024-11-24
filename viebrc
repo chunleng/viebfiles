@@ -34,6 +34,8 @@ set redirects+=https://www.ecosia.org/search\?q=sec$~https://www.rakuten-sec.co.
 set redirects+=https://www.ecosia.org/search\?q=epos$~https://www.eposcard.co.jp/memberservice/pc/login/login_preload.do
 set redirects+=https://www.ecosia.org/search\?q=map(s)?$~https://www.google.com/maps
 set redirects+=https://www.ecosia.org/search\?q=rd%2F(.*)$~https://docs.rs/$1
+set redirects+=https://www.ecosia.org/search\?q=rs%2F(.*)$~https://docs.rs/releases/search?query=$1
+set redirects+=https://www.ecosia.org/search\?q=py%2F(.*)$~https://pypi.org/search/?q=$1
 set redirects+=https://www.ecosia.org/search\?q=docker%2F(.*)$~https://hub.docker.com/search?q=$1
 set userstyle=true
 set nativetheme=dark
