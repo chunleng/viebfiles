@@ -26,6 +26,7 @@ set redirects+=https://www.ecosia.org/search\?q=gh-tm$~https://github.com/gogetg
 set redirects+=https://www.ecosia.org/search\?q=mail$~https://mail.google.com/
 set redirects+=https://www.ecosia.org/search\?q=rss$~https://jp.inoreader.com/dashboard
 set redirects+=https://www.ecosia.org/search\?q=aws$~https://console.aws.amazon.com/
+set redirects+=https://www.ecosia.org/search\?q=do$~https://cloud.digitalocean.com/projects
 set redirects+=https://www.ecosia.org/search\?q=drive$~https://drive.google.com/drive/starred
 set redirects+=https://www.ecosia.org/search\?q=%24$~https://secure.splitwise.com/
 set redirects+=https://www.ecosia.org/search\?q=shinsei$~https://bk.web.sbishinseibank.co.jp/SFC/apps/services/www/SFC/desktopbrowser/default/login
